@@ -35,6 +35,10 @@ To run the tutorial materials you will need:
 
 The mRNA data contains rows (gene symbols and EntrezID) and column contain samples. The sample barcodes can be understood from [here](https://docs.gdc.cancer.gov/Encyclopedia/pages/TCGA_Barcode/)
 
+The DNA-methylation data contain probe IDs in rows rather than gene symbols. There can be multiple probe IDs for Same gene. To convert them to gene symbols<br>
+1. [IlluminaHumanMethylation450k.db](https://www.bioconductor.org/packages/devel/data/annotation/manuals/IlluminaHumanMethylation450k.db/man/IlluminaHumanMethylation450k.db.pdf) or refer to [this](https://www.biostars.org/p/466283/) post.
+2. 
+
 ![](https://docs.gdc.cancer.gov/Encyclopedia/pages/images/barcode.png)
 ### Resources & Aknowledgements
 
