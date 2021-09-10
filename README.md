@@ -1,6 +1,6 @@
 # Multi-omics data integration
 
-This repository contains materials for **Multi-omics data integration** hackathon for [#NGSprint2021](https://ngschool.eu/ngsprint).
+This repository contains materials for **Multi-omics data integration** hackathon for [#NGSprint2021](https://ngschool.eu/ngsprint).<br>
 Follow recorded lectures on [Youtube](https://www.youtube.com/NGSchoolEU)
 
 Michael Love Repo on Multiomics [Tools and packages](https://github.com/mikelove/awesome-multi-omics)<br>
@@ -8,7 +8,7 @@ Michael Love Repo on Multiomics [Tools and packages](https://github.com/mikelove
 ## Literature to refer
 
 1. [Evaluation and comparison of multi-omics data integration methods for cancer subtyping](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009224)
-
+2. [Comparison of Beta-value and M-value methods for quantifying methylation levels by microarray analysis](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-587)
 
 
 ### Running the tutorial materials
@@ -27,6 +27,10 @@ To run the tutorial materials you will need:
 
 4. SUMO: the subtyping tool for multi-omic data [(installation information)](https://github.com/ratan-lab/sumo)
 
+## Exploring the AML cancer data
+1. Learn about the DNA methylation data from [TCGA](https://www.youtube.com/watch?v=Jg8MiFamLfg)
+2. Log transformation of [RPKM values](https://www.biostars.org/p/344925/)
+3. Convert .ipnyb file to .Rmd file using `rmarkdown:::convert_ipynb("1_Data_exploration.ipynb", output = xfun::with_ext("1_Data_exploration.ipynb", "Rmd"))`
 ### Resources & Aknowledgements
 
 A significant portion of included materials was created based on very informative "Multi-omics Analysis" chapter by Jonathan Ronen from the "Computational Genomics with R" book available [here](https://compgenomr.github.io/book/multiomics.html) under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
