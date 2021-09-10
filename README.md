@@ -31,6 +31,7 @@ To run the tutorial materials you will need:
 1. Learn about the DNA methylation data from [TCGA](https://www.youtube.com/watch?v=Jg8MiFamLfg)
 2. Log transformation of [RPKM values](https://www.biostars.org/p/344925/)
 3. Convert .ipnyb file to .Rmd file using `rmarkdown:::convert_ipynb("1_Data_exploration.ipynb", output = xfun::with_ext("1_Data_exploration.ipynb", "Rmd"))`
+4. TCGA data have [RPKM values](https://www.biostars.org/p/245073/)
 
 The mRNA data contains rows (gene symbols and EntrezID) and column contain samples. The sample barcodes can be understood from [here](https://docs.gdc.cancer.gov/Encyclopedia/pages/TCGA_Barcode/)
 
