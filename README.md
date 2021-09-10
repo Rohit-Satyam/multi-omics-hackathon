@@ -31,6 +31,10 @@ To run the tutorial materials you will need:
 1. Learn about the DNA methylation data from [TCGA](https://www.youtube.com/watch?v=Jg8MiFamLfg)
 2. Log transformation of [RPKM values](https://www.biostars.org/p/344925/)
 3. Convert .ipnyb file to .Rmd file using `rmarkdown:::convert_ipynb("1_Data_exploration.ipynb", output = xfun::with_ext("1_Data_exploration.ipynb", "Rmd"))`
+
+The mRNA data contains rows (gene symbols and EntrezID) and column contain samples. The sample barcodes can be understood from [here](https://docs.gdc.cancer.gov/Encyclopedia/pages/TCGA_Barcode/)
+
+![](https://docs.gdc.cancer.gov/Encyclopedia/pages/images/barcode.png)
 ### Resources & Aknowledgements
 
 A significant portion of included materials was created based on very informative "Multi-omics Analysis" chapter by Jonathan Ronen from the "Computational Genomics with R" book available [here](https://compgenomr.github.io/book/multiomics.html) under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
