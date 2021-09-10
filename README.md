@@ -1,6 +1,15 @@
 # Multi-omics data integration
 
 This repository contains materials for **Multi-omics data integration** hackathon for [#NGSprint2021](https://ngschool.eu/ngsprint).
+Follow recorded lectures on [Youtube](https://www.youtube.com/NGSchoolEU)
+
+Michael Love Repo on Multiomics [Tools and packages](https://github.com/mikelove/awesome-multi-omics)<br>
+
+## Literature to refer
+
+1. [Evaluation and comparison of multi-omics data integration methods for cancer subtyping](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009224)
+
+
 
 ### Running the tutorial materials
 
